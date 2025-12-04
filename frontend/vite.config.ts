@@ -15,7 +15,7 @@
         'react-hook-form@7.55.0': 'react-hook-form',
         'react-day-picker@8.10.1': 'react-day-picker',
         'next-themes@0.4.6': 'next-themes',
-        'lucide-react@0.487.0': 'lucide-react',
+        
         'input-otp@1.4.2': 'input-otp',
         'embla-carousel-react@8.6.0': 'embla-carousel-react',
         'cmdk@1.1.1': 'cmdk',
@@ -34,7 +34,7 @@
         '@radix-ui/react-progress@1.1.2': '@radix-ui/react-progress',
         '@radix-ui/react-popover@1.1.6': '@radix-ui/react-popover',
         '@radix-ui/react-navigation-menu@1.2.5': '@radix-ui/react-navigation-menu',
-        '@radix-ui/react-menubar@1.1.6': '@radix-ui/react-menubar',
+        
         '@radix-ui/react-label@2.1.2': '@radix-ui/react-label',
         '@radix-ui/react-hover-card@1.1.6': '@radix-ui/react-hover-card',
         '@radix-ui/react-dropdown-menu@2.1.6': '@radix-ui/react-dropdown-menu',
