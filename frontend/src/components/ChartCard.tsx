@@ -9,7 +9,6 @@ interface ChartCardProps {
 export function ChartCard({ title, subtitle, children }: ChartCardProps) {
   return (
     <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-      {/* Card Header */}
       <div className="px-6 py-4 border-b border-slate-200 dark:border-slate-700">
         <div className="flex items-start justify-between">
           <div className="flex-1">
@@ -23,7 +22,6 @@ export function ChartCard({ title, subtitle, children }: ChartCardProps) {
             )}
           </div>
           
-          {/* Action Buttons */}
           <div className="flex items-center gap-1">
             <button
               className="p-2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg transition-colors"
@@ -47,7 +45,6 @@ export function ChartCard({ title, subtitle, children }: ChartCardProps) {
         </div>
       </div>
       
-      {/* Chart Content */}
       <div className="p-6">
         {children}
       </div>

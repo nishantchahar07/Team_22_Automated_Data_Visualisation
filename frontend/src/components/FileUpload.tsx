@@ -94,7 +94,6 @@ export function FileUpload({ onFileProcessed }: FileUploadProps) {
 
   return (
     <div className="max-w-4xl mx-auto">
-      {/* Page Header */}
       <div className="mb-8">
         <h2 className="text-slate-900 dark:text-white mb-2">
           Upload Your Data
@@ -104,7 +103,6 @@ export function FileUpload({ onFileProcessed }: FileUploadProps) {
         </p>
       </div>
 
-      {/* Upload Dropzone */}
       <div
         onDragOver={(e) => {
           e.preventDefault();
@@ -167,7 +165,6 @@ export function FileUpload({ onFileProcessed }: FileUploadProps) {
         </div>
       </div>
 
-      {/* Error Message */}
       {error && (
         <div className="mt-6 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 flex items-start gap-3">
           <AlertCircle className="w-5 h-5 text-red-600 dark:text-red-400 flex-shrink-0 mt-0.5" />
@@ -178,7 +175,6 @@ export function FileUpload({ onFileProcessed }: FileUploadProps) {
         </div>
       )}
 
-      {/* Sample Data Section */}
       <div className="mt-8 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
         <div className="flex items-start gap-4">
           <div className="flex items-center justify-center w-10 h-10 bg-green-100 dark:bg-green-900/30 rounded-lg flex-shrink-0">
@@ -231,7 +227,6 @@ export function FileUpload({ onFileProcessed }: FileUploadProps) {
         </div>
       </div>
 
-      {/* Features Grid */}
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 p-6">
           <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center mb-4">

@@ -51,7 +51,6 @@ export default function App() {
   return (
     <div className={isDark ? 'dark' : ''}>
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 transition-colors">
-        {/* Top Navigation Bar */}
         <header className="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 sticky top-0 z-50">
           <div className="px-6 py-4">
             <div className="flex items-center justify-between">
@@ -84,7 +83,6 @@ export default function App() {
         </header>
 
         <div className="flex">
-          {/* Side Navigation */}
           <aside className="w-64 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 min-h-[calc(100vh-73px)] hidden md:block">
             <nav className="p-4 space-y-1">
               {navigationItems.map((item) => (
@@ -103,7 +101,6 @@ export default function App() {
             </nav>
           </aside>
 
-          {/* Main Content Area */}
           <main className="flex-1 p-6 md:p-8">
             {step === 'upload' && <FileUpload onFileProcessed={handleFileProcessed} />}
             {step === 'schema' && datasetInfo && (

@@ -262,7 +262,6 @@ export function Dashboard({ datasetInfo, onReset }: DashboardProps) {
 
   return (
     <div className="flex gap-6">
-      {/* Filters Sidebar */}
       {showFilters && (
         <div className="w-80 flex-shrink-0">
           <FilterSidebar
@@ -274,9 +273,7 @@ export function Dashboard({ datasetInfo, onReset }: DashboardProps) {
         </div>
       )}
 
-      {/* Main Dashboard */}
       <div className="flex-1 min-w-0">
-        {/* Dashboard Header */}
         <div className="mb-6">
           <div className="flex items-center justify-between mb-6">
             <div>
@@ -315,8 +312,7 @@ export function Dashboard({ datasetInfo, onReset }: DashboardProps) {
             </div>
           </div>
 
-          {/* Summary Stats Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-md p-6">
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center justify-center w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-lg">
@@ -359,8 +355,7 @@ export function Dashboard({ datasetInfo, onReset }: DashboardProps) {
           </div>
         </div>
 
-        {/* Charts Grid */}
-        {charts.length > 0 ? (
+                {charts.length > 0 ? (
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {charts.map((chart, index) => (
               <ChartCard key={index} title={chart.title} subtitle={chart.subtitle}>

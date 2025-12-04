@@ -44,7 +44,6 @@ export function FilterSidebar({ columns, data, filters, onFilterChange }: Filter
 
   return (
     <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-md overflow-hidden h-fit sticky top-24">
-      {/* Header */}
       <div className="px-6 py-4 border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -61,7 +60,6 @@ export function FilterSidebar({ columns, data, filters, onFilterChange }: Filter
         </div>
       </div>
 
-      {/* Filter Groups */}
       <div className="max-h-[calc(100vh-20rem)] overflow-y-auto">
         {filterableColumns.length === 0 ? (
           <div className="px-6 py-8 text-center">
@@ -120,7 +118,6 @@ export function FilterSidebar({ columns, data, filters, onFilterChange }: Filter
         )}
       </div>
 
-      {/* Footer */}
       {totalActiveFilters > 0 && (
         <div className="px-6 py-4 border-t border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
           <button

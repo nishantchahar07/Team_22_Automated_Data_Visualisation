@@ -42,7 +42,6 @@ export function SchemaReview({ columns, fileName, onConfirm, onBack }: SchemaRev
 
   return (
     <div className="max-w-6xl mx-auto">
-      {/* Page Header */}
       <div className="mb-8">
         <h2 className="text-slate-900 dark:text-white mb-2">
           Review Data Schema
@@ -52,9 +51,7 @@ export function SchemaReview({ columns, fileName, onConfirm, onBack }: SchemaRev
         </p>
       </div>
 
-      {/* Schema Table Card */}
       <div className="bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700 shadow-md overflow-hidden">
-        {/* Card Header */}
         <div className="px-6 py-4 border-b border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
@@ -73,7 +70,6 @@ export function SchemaReview({ columns, fileName, onConfirm, onBack }: SchemaRev
           </div>
         </div>
 
-        {/* Table */}
         <div className="overflow-x-auto">
           <table className="w-full">
             <thead className="bg-slate-50 dark:bg-slate-800/50 border-b border-slate-200 dark:border-slate-700">
@@ -160,7 +156,6 @@ export function SchemaReview({ columns, fileName, onConfirm, onBack }: SchemaRev
           </table>
         </div>
 
-        {/* Card Footer with Actions */}
         <div className="px-6 py-4 border-t border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 flex items-center justify-between">
           <button
             onClick={onBack}
@@ -181,7 +176,6 @@ export function SchemaReview({ columns, fileName, onConfirm, onBack }: SchemaRev
         </div>
       </div>
 
-      {/* Info Box */}
       <div className="mt-6 bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-4">
         <h4 className="text-sm text-blue-900 dark:text-blue-200 mb-1">
           Understanding Column Types
