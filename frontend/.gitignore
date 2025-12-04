@@ -35,4 +35,8 @@ Thumbs.db
 # Cache
 .cache/
 .next/
+<<<<<<< HEAD
 out/
+=======
+out/
+>>>>>>> 0accddd52b2b2a51a7eea5fe73d2492212a3cc2d
